@@ -116,7 +116,7 @@ body{
     border-top: none;
   }
 }
-/* 
+
 .box-container{
     top: 100px;
     width: 100%;
@@ -129,7 +129,7 @@ body{
     box-sizing: border-box;
     gap: 2rem;
     flex-wrap: wrap;
-    } */
+    }
     .box-container {
       width: 100%;
       top: 100px;
@@ -187,6 +187,7 @@ html, body {
   overflow-x: hidden;
 }
 .home {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
