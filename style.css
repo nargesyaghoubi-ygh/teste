@@ -130,21 +130,20 @@ body{
     gap: 2rem;
     flex-wrap: wrap;
     }
-    .box-container {
+    /* .box-container {
       width: 100%;
       top: 100px;
       display: flex;
       flex-direction: column;
-      justify-content: center; /* برای وسط‌چینی عمودی */
-      align-items: center;      /* برای وسط‌چینی افقی */
-      min-height: 100vh;
+      justify-content: center; 
+      align-items: center;      
       text-align: center;
       
       box-sizing: border-box;
       gap: 2rem;
       flex-wrap: wrap;
     }
-    
+     */
 .rotating-text span{
     margin-bottom: 20px;
    
