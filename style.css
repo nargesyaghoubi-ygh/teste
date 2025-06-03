@@ -197,6 +197,7 @@ html, body {
 
 
 .rotating-text {
+  width: 100%;
   font-size: 2rem;
   font-weight: bold;
   color: #333;
