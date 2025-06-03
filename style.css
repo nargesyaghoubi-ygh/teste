@@ -116,7 +116,7 @@ body{
     border-top: none;
   }
 }
-
+/* 
 .box-container{
     top: 100px;
     width: 100%;
@@ -129,10 +129,25 @@ body{
     box-sizing: border-box;
     gap: 2rem;
     flex-wrap: wrap;
+    } */
+    .box-container {
+      width: 100%;
+      top: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* برای وسط‌چینی عمودی */
+      align-items: center;      /* برای وسط‌چینی افقی */
+      min-height: 100vh;
+      text-align: center;
+      
+      box-sizing: border-box;
+      gap: 2rem;
+      flex-wrap: wrap;
     }
-
+    
 .rotating-text span{
     margin-bottom: 20px;
+   
     font-size: 5vh; 
     font-weight: 700; 
     font-family: 'Playfair Display', serif; 
@@ -141,6 +156,7 @@ body{
     text-align: center;
 }
 .box-container p{
+  width: 100%;
   margin-bottom: 20px;
   font-size: 36px; 
   font-weight: 700; 
@@ -164,6 +180,7 @@ body{
   }
 }
 html, body {
+  width: 100%;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -200,7 +217,9 @@ html, body {
   text-shadow:  1px 1px 2px black,
   0 0 1em blue,
   0 0 0.2em blue;
-  width: 350px; /* Fixed width to prevent jumping */
+  width: 80vw;
+  max-width: 350px;
+ /* Fixed width to prevent jumping */
   height: 100%;
 }
 
