@@ -3,6 +3,9 @@
   <img src="https://github.com/nargesyaghoubi-ygh/teste/blob/main/images/Untitled%20design.gif" width="500px" hight="600px" />
 </p>
 
+<p align="center">
+  <img src="https://github.com/nargesyaghoubi-ygh/teste/blob/main/images/Untitled%20design%20(2).gif" width="500px" hight="600px" />
+</p>
 
 
 ## 📸 Screenshots
